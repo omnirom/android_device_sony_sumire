@@ -27,9 +27,6 @@ $(call inherit-product, device/sony/sumire/aosp_e6653.mk)
 $(call inherit-product, device/sony/common/radio.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
-# Inherit Omni product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
-
 # Override Product Name for OmniROM
 PRODUCT_NAME := omni_sumire
 PRODUCT_MODEL := Xperia Z5
